@@ -1,0 +1,232 @@
+:root {
+    /**
+      |============================
+      | Colors
+      |============================
+    */
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --navy-blue: #2E2F42;
+    --slate: #434455;
+    --light-slate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navy-blue-modal: rgba(46, 47, 66, 0.40);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #ffffff;
+    --dairy: #FCFCFC;
+    
+    /**
+      |============================
+      | Others
+      |============================
+    */
+}
+
+
+body {
+font-family: "Roboto", sans-serif;  
+background: #ffffff;
+color: var(--slate);
+font-size: 16px;
+}
+
+.features-title, .team-member, .portfolio-text {
+color: var(--NAVY-BLUE, #2E2F42);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.4px;
+}
+
+.team-title, .portfolio-title {
+  font-size: 36px;
+font-weight: 700;
+line-height: 1.11; /* 111.111% */
+letter-spacing: 0.72px;
+}
+
+/**
+  |============================
+  | Reset
+  |============================
+*/
+
+ul {
+    list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+
+/**
+  |============================
+  | Lists-style
+  |============================
+*/
+
+.nav-list,
+.features-list,
+.portfolio-list,
+.team-list,
+.adress-list {
+list-style-type: none;
+}
+
+/**
+  |============================
+  | Header section
+  |============================
+*/
+.logo {
+color: var(--IRIS, #4D5AE5);
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+.logo-header {
+color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.nav-list-link {
+color: var(--NAVY-BLUE, #2E2F42);
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.32px;
+}
+
+.adress-header {
+font-style: normal;
+}
+
+.adress-list-link {
+color: var(--SLATE, #434455);
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+}
+
+.adress-list-link:hover,
+.adress-list-link:focus,
+ .nav-list-link:hover,
+.nav-list-link:focus {
+color: var(--OCEAN, #404BBF);
+}
+
+/**
+  |============================
+  | Hero section
+  |============================
+*/
+.hero-section {
+  background: var(--navy-blue);
+  text-align: center;
+}
+
+.hero-title {
+color: var(--WHITE, #FFF);
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07; /* 107.143% */
+letter-spacing: 1.12px;
+}
+
+.order-button {
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 500;
+color: var(--WHITE, #FFF);
+background: var(--IRIS, #4D5AE5);
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
+
+.order-button:hover,
+.order-button:focus {
+background: var(--ocean);
+}
+/**
+  |============================
+  | Features section
+  |============================
+*/
+
+.features-text {
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+/**
+  |============================
+  | Team section
+  |============================
+*/
+.team-section {
+background: var(--cloud);
+}
+
+.team-title {
+color:var(--navy-blue);
+text-align: center;
+text-transform: capitalize;
+}
+
+.team-list-item {
+background: var(--WHITE, #FFF);
+}
+
+.team-member{
+  text-transform: capitalize;
+}
+
+.member-profession {
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+/**
+  |============================
+  | Portfolio section
+  |============================
+*/
+
+.portfolio-title {
+color: var(--navy-blue);
+text-align: center;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+
+.portfolio-text {
+line-height: 1.2;
+text-transform: capitalize;
+}
+
+.portfolio-alt-text {
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+/**
+  |============================
+  | Footer section
+  |============================
+*/
+.footer-section {
+background: var(--navy-blue);
+}
+
+.logo-footer {
+color: var(--CLOUD, #F4F4FD);
+}
+
+.footer-alt-text {  
+color: var(--CLOUD, #F4F4FD);
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
