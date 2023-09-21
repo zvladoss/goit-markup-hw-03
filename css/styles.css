@@ -261,7 +261,7 @@ background: var(--IRIS, #4D5AE5);
 line-height: 1.5;
 letter-spacing: 0.04em;
 min-width: 169px;
-height: 56px
+height: 56px;
 margin: 0 auto;
 padding: 16px 32px;
 border: none;
