@@ -1,9 +1,11 @@
 :root {
+
     /**
       |============================
       | Colors
       |============================
     */
+
     --iris: #4D5AE5;
     --ocean: #404BBF;
     --navy-blue: #2E2F42;
@@ -21,9 +23,11 @@
       | Others
       |============================
     */
+
     --indent-x: 24px;
     --indent-y:;
     --list-items-sum: 3;
+
 }
 
 
@@ -38,6 +42,7 @@ section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .container {
 width: 1158px;
 padding-left: 15px;
@@ -80,6 +85,7 @@ ul, ol {
 a {
   text-decoration: none;
 }
+
 button {
     cursor: pointer;
 }
@@ -120,11 +126,6 @@ img {
     flex-basis: calc((var(--margin-indent)*(var(--list-items-sum) - 1)))/ var(--list-items-sum);
 }
 
-/**
-  |============================
-  | 
-  |============================
-*/
 
 /**
   |============================
@@ -145,6 +146,7 @@ list-style-type: none;
   | Header section
   |============================
 */
+
 .header-section {
   align-content: center;
   border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);  
@@ -173,7 +175,6 @@ font-weight: 700;
 line-height: 1.17; /* 116.667% */
 letter-spacing: 0.03em;
 text-transform: uppercase;
-margin-right: 76px;
 }
 
 .logo-header {
@@ -183,6 +184,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 .nav-list {
   display: flex;
   gap: 40px;
+  margin-left: 76px;
 }
 
 .nav-list-item {
@@ -226,6 +228,7 @@ color: var(--OCEAN, #404BBF);
   | Hero section
   |============================
 */
+
 .hero-section {
 background: var(--navy-blue);
 text-align: center;
@@ -249,6 +252,7 @@ max-width: 496px;
 }
 
 .order-button {
+display: block;
 font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-weight: 500;
@@ -256,7 +260,11 @@ color: var(--WHITE, #FFF);
 background: var(--IRIS, #4D5AE5);
 line-height: 1.5;
 letter-spacing: 0.04em;
+min-width: 169px;
+height: 56px
+margin: 0 auto;
 padding: 16px 32px;
+border: none;
 border-radius: 4px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
@@ -265,6 +273,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 .order-button:focus {
 background: var(--ocean);
 }
+
 /**
   |============================
   | Features section
@@ -272,8 +281,8 @@ background: var(--ocean);
 */
 
 .features-section {
-
 }
+
 .features-list {
   display: flex;
   flex-wrap: nowrap;
@@ -298,6 +307,7 @@ letter-spacing: 0.02em;
   | Team section
   |============================
 */
+
 .team-section {
 background: var(--cloud);
 }
@@ -334,6 +344,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+
 /**
   |============================
   | Portfolio section
@@ -347,7 +358,6 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 margin-bottom: 72px;
-
 }
 
 .portfolio-list {
@@ -378,17 +388,23 @@ letter-spacing: 0.02em;
 }
 
 .portfolio-text-margin {
-  
-}
+  }
+
 /**
   |============================
   | Footer section
   |============================
 */
+
 .footer-section {
 background: var(--navy-blue);
 padding-top: 100px;
 padding-bottom: 100px;
+}
+
+.footer-logo-position {
+display: inline-block;
+margin-bottom: 16px;
 }
 
 .logo-footer {
@@ -400,5 +416,4 @@ color: var(--CLOUD, #F4F4FD);
 max-width: 264px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-margin-top: 17px;
 }
