@@ -118,8 +118,8 @@ img {
 .grid-set {
     display: flex;
     flex-wrap: wrap;
-    row-gap: var(--indent-x);
-    column-gap: var(--indent-x);
+    row-gap: 48px;
+    column-gap: 24px;
 }
 
 .grid-item {
@@ -373,6 +373,7 @@ margin-bottom: 72px;
 
 .portfolio-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   row-gap: 48px;
 }
