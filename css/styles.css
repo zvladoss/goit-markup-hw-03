@@ -376,11 +376,12 @@ margin-bottom: 72px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* column-gap: 24px; */
+  column-gap: 24px;
   row-gap: 48px;
 }
 
 .portfolio-list-item {
+   width: calc((100% - 48px) / 3);
   border: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 
