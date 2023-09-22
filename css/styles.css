@@ -118,8 +118,8 @@ img {
 .grid-set {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 48px;
-    column-gap: 24px;
+    row-gap: var(--indent-x);
+    column-gap: var(--indent-x);
 }
 
 .grid-item {
@@ -373,15 +373,12 @@ margin-bottom: 72px;
 }
 
 .portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  column-gap: 24px;
   row-gap: 48px;
 }
 
 .portfolio-list-item {
-   width: calc((100% - 48px) / 3);
+  max-width: 360px;
   border: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 
