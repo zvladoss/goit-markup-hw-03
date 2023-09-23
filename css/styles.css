@@ -379,18 +379,18 @@ margin-bottom: 72px;
 
 .portfolio-list-item {
   max-width: 360px;
-  border: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 
 .portfolio-list-img {
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 
 .portfolio-app-titles {
-  padding-left: 16px;
+  padding: 32px 16px;
+  /* padding-left: 16px;
   padding-right: 16px;
-  padding-bottom: 32px;
-  border: 1px solid var(--CORNFLOWER); 
+  padding-bottom: 32px; */
+  border: 1px solid var(--cornflower); 
   border-top: none;
 }
 
