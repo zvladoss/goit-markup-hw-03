@@ -373,12 +373,16 @@ margin-bottom: 72px;
 }
 
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  column-gap: 24px;
   row-gap: 48px;
 }
 
 .portfolio-list-item {
-  max-width: 360px;
+  width: calc((100% - 48px) / 3);
+  /* max-width: 360px; */
 }
 
 .portfolio-list-img {
