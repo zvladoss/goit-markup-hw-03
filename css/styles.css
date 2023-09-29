@@ -32,10 +32,10 @@
 
 
 body {
-font-family: "Roboto", sans-serif;  
-background: #ffffff;
-color: var(--slate);
-font-size: 16px;
+  font-family: "Roboto", sans-serif;  
+  background: #ffffff;
+  color: var(--slate);
+  font-size: 16px;
 }
 
 section {
@@ -44,25 +44,25 @@ section {
 }
 
 .container {
-width: 1158px;
-padding-left: 15px;
-padding-right: 15px;
-margin: 0 auto;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .features-title, .team-member, .portfolio-text {
-color: var(--NAVY-BLUE, #2E2F42);
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;/
-letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE, #2E2F42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;/
+  letter-spacing: 0.02em;
 }
 
 .team-title, .portfolio-title {
   font-size: 36px;
-font-weight: 700;
-line-height: 1.11; /* 111.111% */
-letter-spacing: 0.02em;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
 }
 
 /**
@@ -87,7 +87,7 @@ a {
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 img {
@@ -116,14 +116,14 @@ img {
 */
 
 .grid-set {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: var(--indent-x);
-    column-gap: var(--indent-x);
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: var(--indent-x);
+  column-gap: var(--indent-x);
 }
 
 .grid-item {
-    flex-basis: calc((var(--margin-indent)*(var(--list-items-sum) - 1)))/ var(--list-items-sum);
+  flex-basis: calc((var(--margin-indent)*(var(--list-items-sum) - 1)))/ var(--list-items-sum);
 }
 
 
@@ -138,7 +138,7 @@ img {
 .portfolio-list,
 .team-list,
 .adress-list {
-list-style-type: none;
+  list-style-type: none;
 }
 
 /**
@@ -149,8 +149,7 @@ list-style-type: none;
 
 .header-section {
   align-content: center;
-  border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);  
-
+  border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 
 .header-section .container {
@@ -172,17 +171,17 @@ list-style-type: none;
 }
 
 .logo {
-color: var(--IRIS, #4D5AE5);
-font-family: "Raleway", sans-serif;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.17; /* 116.667% */
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  color: var(--IRIS, #4D5AE5);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .logo-header {
-color: var(--NAVY-BLUE, #2E2F42);
+  color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .nav-list {
@@ -196,16 +195,16 @@ color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .nav-list-link {
-color: var(--NAVY-BLUE, #2E2F42);
-font-weight: 500;
-line-height: 1.5; /* 150% */
-letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE, #2E2F42);
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
 
 .adress-header {
   display: flex;
   margin-left: auto;
-font-style: normal;
+  font-style: normal;
 }
 
 .adress-list {
@@ -215,16 +214,16 @@ font-style: normal;
 }
 
 .adress-list-link {
-color: var(--SLATE, #434455);
-line-height: 24px; /* 150% */
-letter-spacing: 0.02em;
+  color: var(--SLATE, #434455);
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.02em;
 }
 
 .adress-list-link:hover,
 .adress-list-link:focus,
- .nav-list-link:hover,
+.nav-list-link:hover,
 .nav-list-link:focus {
-color: var(--OCEAN, #404BBF);
+  color: var(--OCEAN, #404BBF);
 }
 
 /**
@@ -234,48 +233,48 @@ color: var(--OCEAN, #404BBF);
 */
 
 .hero-section {
-background: var(--navy-blue);
-text-align: center;
-padding-top: 188px;
-padding-bottom: 188px;
+  background: var(--navy-blue);
+  text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .header-section.container {
 }
 
 .hero-title {
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 48px;
-color: var(--WHITE, #FFF);
-font-size: 56px;
-font-weight: 700;
-line-height: 1.07; /* 107.143% */
-letter-spacing: 1.12px;
-max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  color: var(--WHITE, #FFF);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 1.12px;
+  max-width: 496px;
 }
 
 .order-button {
-display: block;
-font-family: "Roboto", sans-serif;
-font-size: 16px;
-font-weight: 500;
-color: var(--WHITE, #FFF);
-background: var(--IRIS, #4D5AE5);
-line-height: 1.5;
-letter-spacing: 0.04em;
-min-width: 169px;
-height: 56px;
-margin: 0 auto;
-padding: 16px 32px;
-border: none;
-border-radius: 4px;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--WHITE, #FFF);
+  background: var(--IRIS, #4D5AE5);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  min-width: 169px;
+  height: 56px;
+  margin: 0 auto;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .order-button:hover,
 .order-button:focus {
-background: var(--ocean);
+  background: var(--ocean);
 }
 
 /**
@@ -294,7 +293,7 @@ background: var(--ocean);
 }
 
 .features-list-item {
-width: 264px;
+  width: 264px;
 }
 
 .features-title {
@@ -302,8 +301,8 @@ width: 264px;
 }
 
 .features-text {
-line-height: 1.5;
-letter-spacing: 0.02em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /**
@@ -313,14 +312,14 @@ letter-spacing: 0.02em;
 */
 
 .team-section {
-background: var(--cloud);
+  background: var(--cloud);
 }
 
 .team-title {
-color:var(--navy-blue);
-text-align: center;
-text-transform: capitalize;
-margin-bottom: 72px;
+  color:var(--navy-blue);
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -330,19 +329,19 @@ margin-bottom: 72px;
 .team-list-item {
   text-align: center;
   max-width: 264px;
-background: var(--WHITE, #FFF);
-border-radius: 0px 0px 4px 4px;
-box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  background: var(--WHITE, #FFF);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-mem-ph {
 }
 
 .team-member-inform {
-padding-top: 32px;
-padding-bottom: 32px;
- border: 1px solid var(--CORNFLOWER);
- border-top: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border: 1px solid var(--CORNFLOWER);
+  border-top: none;
 }
 
 .team-member-name {
@@ -353,8 +352,8 @@ padding-bottom: 32px;
 
 .member-profession {
   text-align: center;
-line-height: 1.5;
-letter-spacing: 0.02em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /**
@@ -364,12 +363,12 @@ letter-spacing: 0.02em;
 */
 
 .portfolio-title {
-color: var(--navy-blue);
-text-align: center;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-margin-bottom: 72px;
+  color: var(--navy-blue);
+  text-align: center;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -382,31 +381,29 @@ margin-bottom: 72px;
 
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
-  /* max-width: 360px; */
 }
 
 .portfolio-list-img {
-  /* margin-bottom: 32px; */
 }
 
 .portfolio-app-titles {
   padding: 32px 16px;
-  /* padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 32px; */
   border: 1px solid var(--cornflower); 
   border-top: none;
+   /* padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 32px; */
 }
 
 .portfolio-text {
-line-height: 1.2;
-text-transform: capitalize;
-margin-bottom: 8px;
+  line-height: 1.2;
+  text-transform: capitalize;
+  margin-bottom: 8px;
 }
 
 .portfolio-alt-text {
-line-height: 1.5;
-letter-spacing: 0.02em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-text-margin {
@@ -419,23 +416,23 @@ letter-spacing: 0.02em;
 */
 
 .footer-section {
-background: var(--navy-blue);
-padding-top: 100px;
-padding-bottom: 100px;
+  background: var(--navy-blue);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo-position {
-display: inline-block;
-margin-bottom: 16px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-footer {
-color: var(--CLOUD, #F4F4FD);
+  color: var(--CLOUD, #F4F4FD);
 }
 
 .footer-alt-text {  
-color: var(--CLOUD, #F4F4FD);
-max-width: 264px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-}
+  color: var(--CLOUD, #F4F4FD);
+  max-width: 264px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+} 
