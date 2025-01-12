@@ -145,6 +145,11 @@ section {
   |============================
 */
 
+.header-section {
+  
+  border-bottom: 1px solid var(--cornflower);
+}
+
 header .container {
   display: flex;
   justify-content: space-between;
@@ -154,6 +159,7 @@ header .container {
 .navigation {
   display: flex;
   align-items: baseline;
+  
 }
 
 .nav-container {
@@ -212,7 +218,7 @@ nav .logo {
 .address-list-link:focus,
 .nav-list-link:hover,
 .nav-list-link:focus {
-  color: var(--OCEAN, #404BBF);
+  color: var(--ocean, #404BBF);
 }
 
 .address-list-link, .nav-list-link {
@@ -249,7 +255,7 @@ nav .logo {
   margin-left: auto;
   margin-right: auto;
   border-radius: 4px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   background-color: var(--iris);
   font-weight: 500;
@@ -294,32 +300,38 @@ nav .logo {
 }
 
 .team-title {
-  margin-bottom: 76px;
+  margin-bottom: 72px;
 }
 
 .team-list {
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
 }
 
 .team-list-item {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: var(--white);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  
   max-width: 264px;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
 }
 
+.member-info-container {
+  padding: 32px 0px;
+}
+
+
 .team-mem-img {
-  margin-bottom: 32px;
+
 }
 
 .team-member-name {
   margin-bottom: 8px;
+  text-align: center;
+}
+
+.team-mem-prof {
+  text-align: center;
 }
 
 /**
@@ -335,7 +347,8 @@ nav .logo {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
   justify-content: center;
 }
 
@@ -346,12 +359,15 @@ nav .logo {
 
 }
 
+.portfolio-app-titles {
+  margin-bottom: 8px;
+}
+
 .portfolio-text-cont {
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  gap: 8px;
   border-bottom: 1px solid var(--cornflower);
   border-left: 1px solid var(--cornflower);
   border-right: 1px solid var(--cornflower);
@@ -374,7 +390,7 @@ nav .logo {
 }
 
 footer .logo {
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 .footer-alt-text {
@@ -382,7 +398,7 @@ footer .logo {
   color: var(--cloud);
 }
 
-footer .container {
+.footer-container {
   padding-top: 100px;
   padding-bottom: 100px;
 }
