@@ -228,7 +228,7 @@ nav .logo {
   color: var(--ocean, #404BBF);
 }
 
-.address-list-item, .nav-list-item {
+.address-list-link, .nav-list-link {
   padding-top: 24px;
   padding-bottom: 24px;
 }
